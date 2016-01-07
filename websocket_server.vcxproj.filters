@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Handshake">
+      <UniqueIdentifier>{a7b286aa-9783-4496-b1ef-8e2bc7898600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{85ca921c-f8f8-43d2-b729-4c196d7a0be6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Handshake\HttpHeader.cpp">
+      <Filter>Handshake</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Handshake\HttpHeaderLexer.cpp">
+      <Filter>Handshake</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Handshake\HttpHeaderParser.cpp">
+      <Filter>Handshake</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WebSocketServer.cpp" />
+    <ClCompile Include="src\Handshake\HandshakeClient.cpp">
+      <Filter>Handshake</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\WebSocketFrame.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\WebSocketClient.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\WebSocketServer.h" />
+    <ClInclude Include="include\HttpHeader.h">
+      <Filter>Handshake</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HttpHeaderLexer.h">
+      <Filter>Handshake</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HttpHeaderParser.h">
+      <Filter>Handshake</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HandshakeClient.h">
+      <Filter>Handshake</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WebSocketClient.h" />
+    <ClInclude Include="include\WebSocketFrame.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
